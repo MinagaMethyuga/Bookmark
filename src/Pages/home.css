@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    z-index: 1;
+    overflow: hidden;
+}
+.leftsection{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.leftsection h1{
+    font-size: 3rem;
+    color: hsl(229, 31%, 21%);
+    font-weight: 700;
+}
+.leftsection p{
+    font-size: 1.1rem;
+    color: hsl(229, 8%, 60%);
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.btnchrome{
+    width: 28%;
+    height: 12%;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.144);
+    transition: 0.3s ease-in-out;
+}
+.btnchrome:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+}
+.btnfirefox{
+    width: 28%;
+    height: 12%;
+    background-color: hsl(0, 0%, 95%);
+    color: rgb(41, 41, 41);
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.144);
+    transition: 0.3s ease-in-out;
+}
+.btnfirefox:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 27%);
+    border: 2px solid hsl(0, 0%, 27%);
+}
+.heroimg{
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    transform: scale(0.9);
+    z-index: 10;
+}
+.bookmarkimg{
+    width: 50%;
+    height: 45%;
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 100px;
+    position: absolute;
+    top: 40%;
+    right: -17%;
+    z-index: 5;
+}
+.secondsec{
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    z-index: 1;
+    overflow: hidden;
+}
+.mainheader{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+    text-align: center;
+}
+.mainheader h1{
+    margin-top: 10px;
+}
+.mainheader p{
+    margin-top: 15px;
+    line-height: 25px;
+    color: #a9a9a9;
+    font-weight: 500;
+}
+.leftimgsecond{
+    z-index: 200;
+    position: absolute; 
+    top: 42%;
+    left: 10%;
+    background-color: #E8EAF6;
+    transform: scale(0.9);
+}
+.bookmarksecond{
+    width: 50%;
+    height: 43%;
+    background-color: hsl(231, 69%, 60%);
+    border-radius: 100px;
+    position: absolute;
+    top: 54%;
+    left: -17%;
+    z-index: 5;
+}
+.secondrightsec{
+    position: absolute;
+    top: 53%;
+    right: 10%;
+    width: 35%;
+    height: 25%;
+}
+.secondrightsec h1{
+    color: hsl(229, 31%, 21%);
+    font-weight: 700;
+}
+.secondrightsec p{
+    color: hsl(229, 8%, 60%);
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+.infobtnsecond{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.144);
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+}
+.infobtnsecond:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+}
+.thirdsec{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 220%;
+    display: flex;
+    z-index: 1;
+    overflow: hidden;
+}
+.thirdheader{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+    text-align: center;
+}
+.thirdheader p{
+    margin-top: 15px;
+    line-height: 25px;
+    color: #a9a9a9;
+    font-weight: 500;
+}
+.fouthsection{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 330%;
+}
+.fouthheadsection{
+    width: 40%;
+    height: 20%;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+}
+.fouthheadsection h1{
+    font-size: 1.7rem;
+    margin-top: 10px;
+    color: hsl(229, 31%, 21%);
+}
+.fouthheadsection p{
+    margin-top: 15px;
+    line-height: 25px;
+    color: #a9a9a9;
+    font-weight: 500;
+}
+.queslist{
+    width: 50%;
+    height: 75%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.firstque{
+    width: 100%;
+    height: 13%;
+    align-items: center;
+    display: flex;
+    font-size: 0.6rem;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+}
+.secondque{
+    width: 100%;
+    height: 13%;
+    align-items: center;
+    display: flex;
+    font-size: 0.6rem;
+    border-bottom: 1px solid #cdcdcd;
+    position: absolute;
+}
+.thirdque{
+    width: 100%;
+    height: 13%;
+    align-items: center;
+    display: flex;
+    font-size: 0.6rem;
+    border-bottom: 1px solid #cdcdcd;
+    position: absolute;
+    top: 26%;
+}
+.fourthque{
+    width: 100%;
+    height: 13%;
+    align-items: center;
+    display: flex;
+    font-size: 0.6rem;
+    border-bottom: 1px solid #cdcdcd;
+    position: absolute;
+    top: 39%;
+}
+.firstque:hover, .secondque:hover, .thirdque:hover, .fourthque:hover{
+    cursor: pointer;
+    color: hsl(0, 94%, 66%);
+}
+.arrow{
+    position: absolute;
+    left: 90%;
+}
+.arrow2{
+    position: absolute;
+    left: 90%;
+}
+.arrow3{
+    position: absolute;
+    left: 90%;
+}
+.arrow4{
+    position: absolute;
+    left: 90%;
+}
+.morebtnfouth{
+    width: 15%;
+    height: 10%;
+    position: absolute;
+    left: 42.5%;
+    top: 65%;
+    color: #ffff;
+    background-color: hsl(231, 69%, 60%);
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.morebtnfouth:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    .leftsection{
+        width: 50%;
+        height: 50%;
+        top: 30%;
+        left: 5%;
+    }
+    .leftsection h1{
+        font-size: 2.5rem;
+    }
+    .leftsection p{
+        font-size: 0.9rem;
+    }
+    .btnchrome{
+        width: 30%;
+        height: 10%;
+        font-size: 0.7rem;
+    }
+    .btnfirefox{
+        width: 30%;
+        height: 10%;
+        font-size: 0.7rem;
+    }
+    .heroimg{
+        transform: scale(0.8);
+        right: -5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .leftsection{
+        width: 60%;
+        height: 50%;
+        top: 30%;
+        left: 5%;
+    }
+    .leftsection h1{
+        font-size: 1.5rem;
+    }
+    .leftsection p{
+        font-size: 0.7rem;
+    }
+    .btnchrome{
+        width: 30%;
+        height: 10%;
+        font-size: 0.7rem;
+    }
+    .btnfirefox{
+        width: 30%;
+        height: 10%;
+        font-size: 0.7rem;
+    }
+    .heroimg{
+        top: 4%;
+        transform: scale(0.6);
+        right: -15%;
+    }
+    .bookmarkimg{
+        height: 40%;
+        top: 30%;
+        right: -15%;
+    }
+}
+@media screen and (max-width: 426px){
+    .hero{
+        height: 120vh;
+    }
+    .leftsection{
+        width: 70%;
+        height: 50%;
+        top: 30%;
+        left: 5%;
+    }
+    .leftsection h1{
+        width: 100%;
+        font-size: 1.5rem;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        position: absolute;
+        top: 65%;
+        left: 15%;
+        font-size: 1.5rem;
+    }
+    .leftsection p{
+        width: 100%;
+        position: absolute;
+        top: 85%;
+        left: 15%;
+        font-size: 0.8rem;
+        display: flex;
+        text-align: center;
+        line-height: 15px;
+        
+    }
+    .btnchrome{
+        width: 50%;
+        height: 10%;
+        font-size: 0.7rem;
+        position: absolute;
+        top: 115%;
+        left: 10%;
+    }
+    .btnfirefox{
+        width: 50%;
+        height: 10%;
+        font-size: 0.7rem;
+        position: absolute;
+        top: 112%;
+        left: 60%;
+    }
+    .heroimg{
+        top: -2%;
+        transform: scale(0.6);
+        right: -25%;
+    }
+    .bookmarkimg{
+        width: 100%;
+        height: 30%;
+        top: 25%;
+        right: -25%;
+    }
+    .secondsec{
+        position: absolute;
+        top: 130%;
+        height: 185vh;
+    }
+    .mainheader{
+        position: absolute;
+        left: 5%;
+        height: 20%;
+        width: 90%;
+    }
+    .leftimgsecond{
+        top: 45%;
+        left: -9%;
+        transform: scale(0.6);
+    }
+    .bookmarksecond{
+        width: 100%;
+        height: 20%;
+        top: 55%;
+        left: -25%;
+    }
+    .secondrightsec{
+        height: 15%;
+        top: 80%;
+        right: 5%;
+        width: 90%;
+        text-align: center;
+        justify-content: center;
+    }
+    .secondrightsec p{
+        line-height: 25px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+    .infobtnsecond{
+        display: none;
+    }
+    .thirdsec{
+        position: absolute;
+        top: 310%;
+        height: 300vh;
+
+    }
+    .thirdheader{
+        width: 90%;
+        position: absolute;
+        left: 5%;
+        height: 10%;
+    }
+    .thirdheader p{
+        position: absolute;
+        left: 10%;
+        width: 80%;
+        line-height: 25px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+
+
+
+
+
+
+    .fouthsection{
+        position: absolute;
+        top: 620%;
+        overflow: hidden;
+    }
+    .fouthheadsection{
+        width: 90%;
+        height: 30%;
+        position: absolute;
+        left: 5%;
+    }
+    .fouthheadsection h1{
+        width: 80%;
+        position: absolute;
+        left: 10%;
+    }
+    .fouthheadsection p{
+        position: absolute;
+        top: 40%;
+    }
+    .queslist{
+        height: 70%;
+        width: 90%;
+        position: absolute;
+        left: 5%;
+        top: 35%;
+    }
+    .firstque{
+        height: 15%;
+        font-size: 0.5rem;
+    }
+    .secondque{
+        height: 15%;
+        top: 20%;
+        font-size: 0.5rem;
+    }
+    .thirdque{
+        height: 15%;
+        top: 40%;
+        font-size: 0.5rem;
+    }
+    .fourthque{
+        height: 15%;
+        top: 60%;
+        font-size: 0.5rem;
+
+    }
+    .morebtnfouth{
+        width: 30%;
+        height: 10%;
+        position: absolute;
+        left: 35%;
+        top: 80%;
+    }
+}
+@media screen and (max-width: 376px){
+    .heroimg{
+        transform: scale(0.6);
+        position: absolute;
+        left: -35%;
+    }
+    .leftimgsecond{
+        position: absolute;
+        left: -20%; 
+    }
+}
