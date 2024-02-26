@@ -410,13 +410,13 @@
         left: 60%;
     }
     .heroimg{
-        top: -2%;
+        top: 5%;
         transform: scale(0.6);
         right: -25%;
     }
     .bookmarkimg{
         width: 100%;
-        height: 30%;
+        height: 25%;
         top: 25%;
         right: -25%;
     }
@@ -438,7 +438,7 @@
     }
     .bookmarksecond{
         width: 100%;
-        height: 20%;
+        height: 15%;
         top: 55%;
         left: -25%;
     }
